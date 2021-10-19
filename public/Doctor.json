@@ -1,0 +1,45 @@
+[
+    {  "id":1,
+        "name":"Dr. Mohammad",
+         "skil":"Senior Consultant –Ophthalmology", 
+         "phone": "020fd203003",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwPrIHEgccz57ultBquOJj08JNk_H_yx6fiA&usqp=CAU"
+    },
+    {
+        "id":2,
+         "name":"Ms. Hasiba Hasan",
+          "skil":"Microviolazy Medicine",
+          "phone": "0ds20203003",
+          "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8yyDeEkdbzYNrdZnndaNnNTozGna7B6rrqQ&usqp=CAU"
+    },
+   
+    {
+        "id":3,
+        "name":" Dr. Wahida Parveen",
+        "skil":"Sr. Dental Surgeon – Dental & Maxillofacial Surgery",
+         "phone": "020203003",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejgIFJFY7tD5S1fyMEBUcJJbHhnYkaHFj4A&usqp=CAU"
+    },
+    {
+        "id":4,
+        "name":"Dr. Arifur Rahman",
+         "skil":"Senior Consultant – Ophthalmology",
+         "phone": "020203003223",
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvo7Rld4ZEUmJ9inMwCNiyA22zzRPQxin0bQ&usqp=CAU"
+    },
+    {
+        "id":5,
+        "name":"Ms. Shaila Sabrin",
+        "skil":"Chief Dietitian–Dietetics & Nutrition",
+         "phone": "0172040455034",
+         
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRilHtoE5cM25DojRkieMtRDjuPzSssE7Clag&usqp=CAU"
+    },
+    {
+        "id":5,
+        "name":"Dr. ABM Sarwar",
+        "skil":"Senior Consultant – Internal Medicine",
+         "phone": "02020300332434",
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquOidLbh7t0vls1xvjVObPm88QM7NoOXEUQ&usqp=CAU"
+    }
+]

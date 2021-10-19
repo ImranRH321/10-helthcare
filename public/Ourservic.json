@@ -1,0 +1,44 @@
+
+
+[
+    {
+        "id":4,
+        "name":"Urology",
+         "detil":"Urology and Kidney Stone Laser and Laparoscopy Hospital. Urology department headed by Experienced and Senior Prof. Dr T Praveen Kumar performs Laser Kidney Stone and Laser Prostate removal Laparoscopic Surgery for kidney and Adrenals are done.",
+         "img":"https://venusindus.com/wp-content/uploads/2018/01/14.png"
+    },
+  {
+        "id":2,
+         "name":"Endoscopic Gastroenterology",
+           "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
+          "img":"https://venusindus.com/wp-content/uploads/2018/01/16.png"
+    },
+   
+    {
+        "id":3,
+        "name":"Orthopedics & Emergency",
+        "detil":"Trauma Care, Spine & Fracture Surgery done by experienced Orthopedician, and our Neuro Surgery team handles Head Injury Cases  Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures .",
+        "img":"https://venusindus.com/wp-content/uploads/2018/01/11.png"
+    },
+    
+    {   
+         "id":2,
+        "name":"Endoscopic Gastroenterology",
+          "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
+         "img":"https://venusindus.com/wp-content/uploads/2018/01/16.png"
+    },
+    {
+        "id":4,
+        "name":"Urology",
+         "detil":"Urology and Kidney Stone Laser and Laparoscopy Hospital. Urology department headed by Experienced and Senior Prof. Dr T Praveen Kumar performs Laser Kidney Stone and Laser Prostate removal Laparoscopic Surgery for kidney and Adrenals are done.",
+         "img":"https://venusindus.com/wp-content/uploads/2018/01/14.png"
+    },
+    {
+     
+         "id":2,
+         "name":"Endoscopic Gastroenterology",
+           "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
+          "img":"https://venusindus.com/wp-content/uploads/2018/01/16.png"
+    }
+   
+]

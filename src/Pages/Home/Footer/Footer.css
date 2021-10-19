@@ -1,0 +1,26 @@
+
+
+/* #0f1f7a; */
+
+
+.footer{
+    background-color: #0f1f7a;
+    color: white;
+    padding: 9% 2% ;
+    text-align: center;
+}
+
+.footer  a{
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px 0px;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+.footer  a:hover{
+  
+    padding: 5px 0px;
+    color:  #4a60dbc2;
+    text-decoration: underline;
+}

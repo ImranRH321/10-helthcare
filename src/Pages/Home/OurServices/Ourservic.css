@@ -1,0 +1,23 @@
+.shadow{
+    box-shadow: 5px 5px 5px solid burlywood;
+   
+}
+.shadow{
+    border: 1px solid black; 
+    background-color: rgb(44, 66, 105);
+    color: whitesmoke;
+    box-shadow: 10px 10px 10px solid rgb(221, 131, 13);
+    transform: scaleX(1.0);
+}
+.shadow:hover{
+    border: 1px solid black; 
+    background-color: rgb(231, 232, 235);
+    color: rgb(0, 0, 0);
+    box-shadow: 30px 40px 40px solid rgba(97, 11, 209, 0.568);
+}
+
+
+.shadowe img{
+    width: 50%;
+    margin: auto;
+}
