@@ -27,7 +27,8 @@ const Login = () => {
                     </div>
                     ;
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6"> 
+                     <h2>Please Loign</h2>
                     <div>
                         <form onSubmit={handleFormcontrol}>
                         <div className="form-input mt-5">
@@ -47,7 +48,7 @@ const Login = () => {
                             <br />
                             <div >
                         
-                                <button className="bg-warning px-4 rounded mt-3" onClick={processLogin}  type="submit">Login</button> 
+                                <button className="bg-warning px-5 rounded mt-3" onClick={processLogin}  type="submit">Login</button> 
                             </div> 
                             <span>{error}</span>
             

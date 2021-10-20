@@ -15,6 +15,7 @@ import Banner from './Pages/Home/Banner/Banner';
 import Doctor from './Pages/Home/Doctor/Doctor';
 import Register from './Pages/Home/Login/Register';
 import AuthProvider from './Contexts/AuthProvider';
+import Footer from './Pages/Home/Footer/Footer';
 
 
 
@@ -54,9 +55,11 @@ function App() {
           <Router  path='*'>
             <PageNotFoun></PageNotFoun>
           </Router>
-        </Switch>
-      </Router>
+        </Switch> 
+      </Router> 
+      <Footer></Footer>
       </AuthProvider>
+
     </div>
   );
 }

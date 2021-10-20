@@ -67,8 +67,8 @@ function ContactForm() {
                   rows={3}
                 />
               </Form.Group>
-              <Button className="mb-5 px-4" variant="light" type="submit">
-                Submit
+              <Button className="mb-5 px-4 text-dark" variant="light" type="submit">
+                <a href="/login">Submit</a>
               </Button>
             </Form>
         </Container>

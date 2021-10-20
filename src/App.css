@@ -1,8 +1,9 @@
 .App {
   text-align: center;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  background-color: rgba(6, 6, 41, 0.884)
 }
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
