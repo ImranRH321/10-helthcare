@@ -6,7 +6,7 @@ const Doctor = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('/Doctor.json')
+        fetch('/doctor.json')
             .then(res => res.json())
             .then(data => setData(data))
 
@@ -19,25 +19,25 @@ const Doctor = () => {
                 <h1>Trusted Specialist Doctors</h1>
               </div>
             </section>
-                <div className='Backgroun-img'>
+                <div>
                 
                     <div className="row p-5 gy-4 bg-muted">
                     
-                        {data.slice(0,6).map((home) => {
-                            const { name, skil,phone, img } = home;
+                        {data.slice(0,6).map((doctor) => {
+                            const { name, skil,phone, img } = doctor;
                             return (
                                 <>
                                 
                                     <div
-                                        className="col-lg-4 col-md-6"
-                                        key={home}>
+                                        className="col-lg-4 col-md-6 "
+                                        key={doctor}>
                                             <div class="card shadow" style={{width: "18rem"}}>
                                              <img src={img} class="card-img-top" alt="..." />
-                                            <div class ="card-body all-card">
+                                            <div class ="card-body style">
                                              <h3>name: {name}</h3>
                                             <p>skil: {skil}</p>
                                             <h5 class ="card-title">phone:  {phone}</h5>
-                                            <Button  class ="btn btn-dark">Details here</Button>
+                                            <Button  class ="btn btn-danger">Details here</Button>
                                             </div>
                                         </div>
         

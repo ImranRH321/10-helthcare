@@ -11,7 +11,7 @@
     justify-content: center;
     height: 650px;
     text-align: center;
-    color: #fff;
+
   }
   
   .showcase .showcase-overlay h1 {
@@ -20,19 +20,15 @@
   color: orange;
     margin: 5px 10px;
   }
- 
-  .shadow{
-      box-shadow: 5px 5px 5px solid burlywood;
-     
-  }
-  .shadow:hover{
-      border: 1px solid black; 
-      background-color: blueviolet;
-      color: whitesmoke;
-      box-shadow: 10px 10px 10px solid rgb(221, 131, 13);
-      transform: scaleX(1.0);
-  }
-
-  .shadow img{
-    width: auto;
-  }
+ .shadow{
+   border: 2px solid blue;
+   box-shadow: 16px 16px 15px solid goldenrod;
+   background-color: blueviolet;
+   color: white;
+ }
+ .shadow:hover{
+   box-shadow: 30px 30px 30px solid slateblue;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   border: 4px solid blueviolet;
+ }

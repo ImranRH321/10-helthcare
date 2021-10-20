@@ -7,7 +7,7 @@ const Ourservice = () => {
     const [servies, setSerives] = useState([])
 
     useEffect(() => {
-        fetch('./Ourservic.json')
+        fetch('./ourservic.json')
             .then(res => res.json())
             .then(data => setSerives(data))
     }, [])
@@ -24,7 +24,7 @@ const Ourservice = () => {
                             <Col md={4}
                                 key={servies}>
 
-                                <Card className="shadow shadowe " style={{ width: '18rem' }}>
+                                <Card className="shadow shadowStyle " style={{ width: '18rem' }}>
                                     <Card.Img variant="top " src={img} />
                                     <Card.Body>
                                         <Card.Title className="text-warning">{name}</Card.Title>

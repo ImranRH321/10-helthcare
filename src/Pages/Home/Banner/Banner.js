@@ -18,7 +18,7 @@ const Banner = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://rcmch.com.bd/images/web-2-o.png"
+      src="https://2.bp.blogspot.com/-ZdsN8oKerqk/WMNHqVM-B9I/AAAAAAAAK7o/p5UV5tjuPvsWbBPHq2JHJy_FpnVEo9B3wCLcB/s1600/Apollo%2BDhaka.JPG" alt=''
     />
 
     <Carousel.Caption>
@@ -28,7 +28,7 @@ const Banner = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://i2.wp.com/www.finddoctor24.com/wp-content/uploads/2017/11/finddoctor24.png?fit=844%2C465&ssl=1"
+      src="https://www.madrehealthcare.com/wp-content/uploads/2021/08/BANGLADESHI-PRIVATE-HOSPITALS-INFORMATION-min.png"  alt=''
     />
 
     <Carousel.Caption>

@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-import useFirebase from '../../../Hooks/useFirebase';
+import './Header.css'
+import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
+
 
 const Header = () => {
-  const { handleLogout, user } = useFirebase();
+  const { logOut, user } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   return (
     <div>
-      <div>
-        <Navbar className="bg-dark py-3" expand="lg" >
+      <div>fixed="top"
+        <Navbar className="bg-dark py-3" expand="lg" fixed="top">
           <Container>
             <Navbar.Brand as={NavLink} className="text-white" to="/home">
+              <img width="100px" height="40px" src="https://i.ibb.co/SmMHHvf/2-removebg-preview.png" alt="" />
               Healthcare
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ms-auto align-items-center">
+              <Nav className="ms-auto align-items-center fs-5 color">
                 <Nav.Link as={NavLink} to="/home" className="text-white">
                   Home
                 </Nav.Link>
@@ -38,41 +41,30 @@ const Header = () => {
                   Contact
                 </Nav.Link>
 
+               { 
+                 user.email ? (
+                   
+                  <>
+                  <span className="text-light">{user.displayName}</span> 
+                  <button onClick={logOut}>logout</button>
+                
+                </>
+                 ) :<>
+                 <Nav.Link as={NavLink} to="/login" className="text-white">
+                  Login
+                </Nav.Link>
 
-                {/* ----------- */}
-
-                {user.email ? (
-                   <Button onClick={handleLogout} className="btn btn-danger">
-                   LogOut
-                 </Button>
-                    ) : (
-                  <Nav.Link as={NavLink} to="/login" className="text-white">
-                    Login
-                  </Nav.Link>
-                 )}
-                   <p className="mb-5">{user.email}</p>
-                {/* ---------- */}
-                {/* {user.email ? (
-                  <button onClick={handleLogout} className="btn btn-danger">
-                    LogOut
-                  </button>
-                ) : (
-                  <Link to="/login">
-                    <li>Login</li>
-                  </Link>
-                )}
- */}
-
-
-
-                <NavDropdown >
-
-                </NavDropdown>
+                <Nav.Link as={NavLink} to="/register" className="text-white">
+                 Register
+                </Nav.Link>
+                 </>
+               }
 
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        <br /><br /> <br />
       </div>
     </div>
   );

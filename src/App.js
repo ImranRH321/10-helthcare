@@ -6,21 +6,23 @@ import {
 import Home from './Pages/Home/Home/Home';
 import About from './Pages/Home/About/About';
 import PageNotFoun from './Pages/Home/PageNotFound/PageNotFoun';
-import Login from './Pages/Home/Login/Login';
-import Signup from './Pages/Home/Signup/Signup';
+import Login from './Pages/Home/Login/Login'; 
 import Header from './Pages/Home/Header/Header';
 import Contact from './Pages/Home/Contact/Contact';
 import Services from './Pages/Home/Services/Services';
 import Banner from './Pages/Home/Banner/Banner';
-import AuthProvider from './Contexts/AuthProvider';
+   
 import Doctor from './Pages/Home/Doctor/Doctor';
+import Register from './Pages/Home/Login/Register';
+import AuthProvider from './Contexts/AuthProvider';
 
 
 
 function App() {
   return (
     <div className="App">
-       <AuthProvider>
+      
+    <AuthProvider>
       <Router> 
         <Header></Header> 
         <Switch>
@@ -46,8 +48,8 @@ function App() {
           <Router path='/login'>
             <Login></Login>
           </Router>
-          <Router path='/signup'>
-            <Signup></Signup>
+          <Router path='/register'>
+            <Register></Register>
           </Router>
           <Router  path='*'>
             <PageNotFoun></PageNotFoun>

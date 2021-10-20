@@ -1,18 +1,17 @@
 
-
 [
     {
-        "id":4,
+        "id":1,
         "name":"Dr.Abdul mannan",
          "skil":"Senior Consultant – Ophthalmology",
-         "phone": "020203003223",
+         "hospital": "Apollo Hospital",
          "img":" https://i.ibb.co/nkhnpHy/5.png"
     },
   {
         "id":2,
          "name":"Ms.Mim akter",
           "skil":"Microviolazy Medicine",
-          "phone": "0ds20203003",
+          "hospital": "Apollo Hospital",
           "img":"https://i.ibb.co/MM2CMf1/3.png"
     },
    
@@ -20,30 +19,54 @@
         "id":3,
         "name":" Dr. Priya akter",
         "skil":"Sr. Dental Surgeon – Dental & Maxillofacial Surgery",
-         "phone": "020203003",
+        "hospital": "Apollo Hospital",
         "img":"https://i.ibb.co/8NsPszP/4.png"
     },
     
-    {  "id":1,
+    {  "id":4,
         "name":"Dr.Shoid",
          "skil":"Senior Consultant –Ophthalmology", 
-         "phone": "020fd203003",
+         "hospital": "Apollo Hospital",
         "img":"https://i.ibb.co/B48Bx54/2.png"
     },
     {
         "id":5,
         "name":"Dr.Anaara begum",
-        "skil":"Senior Consultant – Internal Medicine",
-         "phone": "02020300332434",
+        "skil":"Psychiatry and Sexual Medicine",
+        "hospital": "Apollo Hospital",
          "img":"https://i.ibb.co/r28tCw7/Screenshot-2021-10-19-130315.png"
     },
     {
-        "id":5,
+        "id":6,
         "name":"Ms. Moriyem",
-        "skil":"Chief Dietitian–Dietetics & Nutrition",
-         "phone": "0172040455034",
+        "skil":"DIAGNOSTIC CENTER",
+        "hospital": "Apollo Hospital",
          
-         "img":"https://www.maniladoctors.com.ph/wp-content/uploads/2018/01/Corporate-Health-Services-1.png"
+         "img":"https://quanticalabs.com/wp_themes/medicenter-pregnancy/files/2018/10/image_03-2.jpg"
+    },
+    {
+        "id":7,
+        "name":"Ms.Taniya",
+        "skil":"PEDIATRIC",
+        "hospital": "Apollo Hospital",
+         
+         "img":"https://quanticalabs.com/wp_themes/medicenter-pregnancy/files/2018/10/image_04-1.jpg"
+    },
+    {
+        "id":8,
+        "name":"Ms. Moriyem",
+        "skil":"Blood Analysis ",
+        "hospital": "Apollo Hospital",
+         
+         "img":"https://i.ibb.co/C2x0s1m/service-image-1.jpg"
+    },
+    {
+        "id":9,
+        "name":"Ms.Rohima",
+        "skil":"Eeys Doctors",
+        "hospital": "Apollo Hospital",
+         
+         "img":"https://quanticalabs.com/wp_themes/medicenter-pregnancy/files/2018/10/image_06.jpg"
     }
    
 ]

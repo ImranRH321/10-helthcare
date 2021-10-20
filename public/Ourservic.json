@@ -22,23 +22,24 @@
     },
     
     {   
-         "id":2,
-        "name":"Endoscopic Gastroenterology",
+         "id":4,
+        "name":"Beverly Press & Park Labrea NewsBeverly",
           "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
-         "img":"https://venusindus.com/wp-content/uploads/2018/01/16.png"
-    },
-    {
-        "id":4,
-        "name":"Urology",
-         "detil":"Urology and Kidney Stone Laser and Laparoscopy Hospital. Urology department headed by Experienced and Senior Prof. Dr T Praveen Kumar performs Laser Kidney Stone and Laser Prostate removal Laparoscopic Surgery for kidney and Adrenals are done.",
-         "img":"https://venusindus.com/wp-content/uploads/2018/01/14.png"
+         "img":"https://beverlypress.com/wp-content/uploads/2020/01/CedarsHeartburn.png"
     },
     {
      
-         "id":2,
-         "name":"Endoscopic Gastroenterology",
-           "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
-          "img":"https://venusindus.com/wp-content/uploads/2018/01/16.png"
+      "id":5,
+      "name":" technique to cure acidity Visit Images may be ",
+        "detil":"Advanced Endoscopic, ERCP Procedures for stomach, Esophagus, Gall Bladder, Liver and Pancreatic Diseases by Senior GI Surgeon Dr. P Suresh Babu, also Laparoscopic procedures are performed regularly.",
+       "img":"https://www.dailypioneer.com/uploads/2015/story/images/big/115445_Untitled-3.gif"
+ },
+    {
+        "id":6,
+        "name":"tushar--for upsc aspirants: PILL CAMERA",
+         "detil":"Urology and Kidney Stone Laser and Laparoscopy Hospital. Urology department headed by Experienced and Senior Prof. Dr T Praveen Kumar performs Laser Kidney Stone and Laser Prostate .",
+         "img":"http://ww2.hdnux.com/photos/10/36/37/2222037/5/628x471.jpg"
     }
+  
    
 ]

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       //   style={{ background: `url(${sectionBg})`, backgroundAttachment: "fixed" }}
-      className="py-5 bg-primary"
+      className="py-5 bg-dark"
     >
       <Container>
         <div>
@@ -27,7 +27,7 @@ const About = () => {
 
               <img className="img-fluid" src="https://venusindus.com/wp-content/uploads/2018/01/shutterstock_1359661851.jpg" alt="" />
 
-              <p className="text-white my-3 text-center">
+              <p className="text-warning my-3 text-center">
                 As the world enters its second year of the coronavirus pandemic, having a strong public health care system is as important as ever.
                 Developed countries use various approaches to provide universal coverage. Some rely on the government, as in a single-payer approach. Other nations depend on private insurers and a third group of countries, such as the United States, have a mixture of both.
               </p>
@@ -38,23 +38,18 @@ const About = () => {
         <Row className="mt-4">
           <Col md>
             <div bottom>
-              <h3
-                className="text-sanger">
-                Asgar Ali Hospital signed a corporate agreement with Alpha Islamic Life Insurance
-              </h3>
+              <h6
+                className="text-right p-2 text-info">
+               A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+              </h6>
             </div>
           </Col>
           <Col md className="d-flex align-items-center">
 
              <div className="mx-auto">
              <Form>
-              <Form.Group className="mb-3 " controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Enter email" />
-
-              </Form.Group>
-
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Control type="password" placeholder="Password" />
+                <Form.Control type="password" placeholder="Enter Your Password" />
               </Form.Group>
               <Button className="btn btn-warning" variant="primary" type="submit">
                 <a href="/login">SignUp</a>

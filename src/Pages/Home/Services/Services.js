@@ -17,21 +17,22 @@ const Services = () => {
             <Row className="row p-5 gy-4 bg-muted">
 
                 {servies.map((service) => {
-                    const { name, skil,phone, img } = service;
+                    const { name, skil,hospital, img } = service;
                     return (
                         <>
 
                             <Col md={4}
                                 key={Services}>
 
-                                <Card className="styling" style={{ width: '18rem' }}>
+                                <Card className="edit" style={{ width: '18rem' }}>
                                     <Card.Img variant="top" src={img} />
-                                    <Card.Body>
+                                    <Card.Body className="styling">
                                         <Card.Title>{name}</Card.Title>
+                                        <Card.Title>{hospital}</Card.Title>
                                         <Card.Text>
                                             {skil}
                                         </Card.Text>
-                                        <Button variant="primary px-4">Book</Button>
+                                        <Button className="py-1 my-3" variant="warning px-4">Detils</Button>
                                     </Card.Body>
                                 </Card>
 
