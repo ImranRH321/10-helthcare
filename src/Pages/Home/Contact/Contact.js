@@ -3,7 +3,7 @@ import { Form, Button, Row, Col, Container } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="bg-info bg-dark">
+    <div className="bg-info bg-white">
       <ContactForm />
     </div>
   );

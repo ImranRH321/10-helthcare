@@ -6,7 +6,7 @@ import useFirebase from "../../../Hooks/useFirebase";
 
 const Login = () => {
   const {
-    error,
+    error, 
     handleEmailChange,
     handlePasswordChange,
     handleFormcontrol,

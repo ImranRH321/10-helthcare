@@ -1,13 +1,10 @@
 .shadow{
-    box-shadow: 5px 5px 5px solid burlywood;
+
    
 }
 .shadowStyle{
-    border: 1px solid black; 
-    background-color: rgb(44, 66, 105);
-    color: whitesmoke;
-    box-shadow: 10px 10px 10px solid rgb(221, 131, 13);
-    transform: scaleX(1.0);
+   color: black;
+    transform: scale X(1.0);
 }
 .shadowStyle img{
     width: 50%;

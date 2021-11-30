@@ -9,14 +9,13 @@
     margin: 20px 0;
     padding: 5px;
     border-radius: 10px; 
-    background-color: blueviolet;
-    color: whitesmoke;
+
    transition: 1s;
 }
 
 .edit{
    border: 2px solid black;
-   box-shadow: 5px 5px 10px saddlebrown;
+
 }
 .edit:hover{
    border: 5px solid rgb(184, 175, 192);
@@ -25,7 +24,7 @@
  
   background-color: white;
    color: rgb(0, 0, 0);
-   transform: scaleX(1.0);
+
    border-radius: 6px;
 }
 
